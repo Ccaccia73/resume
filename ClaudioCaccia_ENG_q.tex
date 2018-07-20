@@ -1,0 +1,272 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Claudio} % Your first name
+\familyname{Caccia} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Busto Arsizio, 21052 VA}{via Gramsci 4}
+\mobile{(+39) 329 3738162}
+\phone{Skype: ccaccia.atos.com}
+%\fax{(000) 111 1113}
+\email{c.caccia@libero.it}
+%\homepage{ccaccia73.github.io/}{ccaccia73.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196/03}
+%\photo[60pt][0.2pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"All models are wrong, but some are useful" George E.P. Box}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{2012--Present}{R\&D Engineer}{Atos S.p.A.}{Sesto Calende}{employee}{Design, dimensioning and verification of hydraulic valves, performances optimization by means of \emph{Virtual Prototyping} tools.\newline{}
+	\begin{itemize}
+		\item Analysis of hydraulic components and systems to define performances and fulfill customer needs
+		\item Use of Computational Fluid Dynamics (\emph{CFD}) tools with the purpose of:
+		\begin{itemize}
+			\item estimate \emph{performances} of new components
+			\item optimize flow rate of existing products
+			\item compute forces on moving elements
+		\end{itemize}
+		\item Use of Structural analysis (\emph{FEM}) with the purpose of:
+		\begin{itemize}
+			\item compute stresses and strains of components
+			\item determine and optimize critical sections and geometries
+			\item analyze dynamic behavior (frequency response and modal analysis)
+		\end{itemize}
+		\item Test-bench experiments (supervision and execution) to cross-validate simulation data 
+		\item Use of \emph{DoE} methods to search optimal working conditions minimizing the number of required tests or simulations
+	\end{itemize}
+}
+
+\cventry{2008--2012}{Firmware Engineer}{Atos S.p.A.}{Sesto Calende}{employee}{Firmware Development of hydraulic actuators designed to control flow, pressure, force  and position.
+In detail:
+\begin{itemize}
+	\item Implementation of control algorithms applied to hydraulic axes defining:
+	\begin{itemize}
+		\item operational modes
+		\item transition logic
+		\item programmable and automatic working sequences
+		\item velocity profiles
+	\end{itemize}
+	\item \emph{Testing} of prototypes
+	\item Optimization of control parameters of components to be put into production
+\end{itemize}
+}
+
+
+\cventry{2007--2008}{Research Assistant}{Universit\`a di Milano Bicocca}{Computer Science Department}{}
+{Work with the research team in \emph{Artificial Intelligence} and \emph{Robotics} with the following tasks:
+\begin{itemize}
+	\item Participation to the research project \emph{Rawseeds} (\url{www.rawseeds.org}). Goal of the project:
+	 publication of sensor data to be used to develop, verify and benchmark SLAM algorithms	(Simultaneous Localization and Mapping). Performed activities:
+	\begin{itemize}
+		\item design and creation of robotic platforms
+		\item sensorization
+		\item execution of acquisitions campaigns
+	\end{itemize}
+	\item Robots development for the project \emph{Robocup} (\url{www.robocup.org}): design of components and platforms
+\end{itemize} }
+
+
+\cventry{2004--2007}{Proposal Engineer}{Siemens}{Milan}{freelancer}{
+Design and dimensioning of Information Systems, to  manage and archive medical data, in particular for the treatment and storage 
+of images and data coming from digital diagnostic equipment (\textsc{CT, MR} \dots)}
+
+\cventry{2000--2003}{Research associate}{Politecnico di Milano}{Como branch}{}
+{Teaching, research and consulting tasks for the Management Engineering Department. In detail:
+	\begin{itemize}
+		\item collaborations with textile companies of the Como area directed to the characterization and improvement of woven fabrics
+		\item Teaching, conducting exercises and labs for courses in
+		\emph{Textile Plants} and \emph{Supply Chain Management}
+		\item stay  at the \emph{ETH} in Zurich to contribute to the development of an automatic device for mechanical tests on fabrics
+	\end{itemize}}
+
+\cventry{1999}{Process Quality Engineer}{Magneti Marelli}{Corbetta (MI)}{employee}{
+Analysis of production and assembly processes, monitoring of defectiveness of outsourced and internally built components for some production lines of the division \emph{Instrument Panels}. Quality audit of suppliers and of assembly lines }
+
+
+\subsection{Miscellaneous}
+
+\cventry{2003}{Freelancer}{Successori Cattaneo S.p.A.}{Albese con Cassano (CO)}{}{
+	Analysis and optimization of configuration parameters of:
+	\begin{itemize}
+		\item projectile weaving machines for silk fabrics with the aim to reduce defects caused by stops
+		\item an automatic vision machine used to inspect fabrics
+	\end{itemize}
+	}
+\cventry{2003}{Freelancer}{Microsystems srl.}{Milan}{}{
+\begin{itemize}
+	\item design and deployment of a custom machine for artistic wax products
+	\item design of a robotic platform for surveillance and tele-medicine
+\end{itemize}}
+\cventry{2003}{Freelancer}{Raff Progetti srl.}{Galliate (NO)}{}{
+Design, numeric modeling and simulation of components and systems, in particular:
+\begin{itemize}
+	\item dimensioning of a planetary drive
+	\item FEM analysis of a strapping machine
+	\item simulation of fire suppression systems
+	\item design of a vacuum discharge system
+\end{itemize} }
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2009--2013}{Master Degree in Computer Science Engineering}{Politecnico}{Milan}{\textit{110}}{}  % Arguments not required can be left empty
+\cventry{2005--2007}{Bachelor's Degree in Computer Science Engineering}{Politecnico}{Milan}{\textit{110 cum laude}}{Laurea online: \href{url}{www.laureaonline.polimi.it}}
+\cventry{1992--1998}{Master Degree in Mechanical Engineering}{Politecnico}{Milan}{\textit{100/100}}{Single-Cycle 5 years Degree}
+\cventry{1987--1992}{High School Diploma}{Liceo Ginnasio D.Crespi}{Busto Arsizio}{\textit{60/60}}{}
+
+\section{Theses}
+
+\cvitem{Date}{23/07/2013}
+\cvitem{Title}{\emph{Mitosis detection in histological images: Algorithms based on machine learning and their performance compared to humans}}
+\cvitem{Supervisors}{Professor Vincenzo Caglioti \& ing. Alessandro Giusti}
+\cvitem{Description}{The work compares the abilities of humans and \emph{machine learning} algorithms to identify mitoses in histological images}
+
+\cvitem{Date}{25/09/2007}
+\cvitem{Title}{\emph{Application of \emph{Reinforcement Learning} methods to control an inverted pendulum robot}}
+\cvitem{Description}{The thesis describes the application of the\emph{NFQ} method to make an inverted pendulum  robot find and maintain equilibrium in a quick and efficient way.}
+
+\cvitem{Date}{08/06/1998}
+\cvitem{Title}{\emph{Misalignment simulation in rigid joints of rotors}}
+\cvitem{Supervisor}{Professor Nicol\`o Bachschmid}
+\cvitem{Description}{The thesis compares results obtained from a test rotor with a \emph{FEM} model developed to describe misalignment.}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\subsection{Languages}
+
+\cvitem{Advanced}{\textsc{python}, \textsc{C/C++}}
+\cvitem{Intermediate}{\LaTeX, \textsc{java}, OpenModelica, \textsc{SQL} }
+\cvitem{Basic}{\textsc{cuda}, \textsc{html}, Ruby, \emph{R}}
+
+\subsection{Software and Systems}
+
+\cvitem{Advanced}{Linux, \emph{Code Saturne}, \emph{Code Aster}, \textsc{Matlab} }
+\cvitem{Intermediate}{OpenOffice, \textsc{Creo Elements}, \textsc{Abaqus}, \textsc{OpenFOAM} }
+\cvitem{Basic}{\textsc{SolidWorks}, \textsc{SolidEdge} }
+
+\subsection{Hardware}
+
+\cvitem{platforms}{\textsc{ARM Cortex M3-M4}, Arduino}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Italian}{Mothertongue}{}
+\cvitemwithcomment{English}{Advanced}{}
+\cvitemwithcomment{German}{Basic}{}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Achievements}
+
+\cvitem{2015}{Completion of basic and advanced courses on \textsc{OpenFOAM} at \href{url}{www.technicalcourses.net} }
+\cvitem{2014}{Publication of the article \emph{"A Comparison of Algorithms and Humans for Mitosis Detection"} in Proceedings of International Symposium on Biomedical Imaging (ISBI) }
+\cvitem{2006}{Completion of the first level in \emph{Project Management} at Siemens }
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Basket}{Crossfit}
+\cvlistdoubleitem{Puzzles}{MOOCs}
+\cvlistitem{3D Printing}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\iffalse
+
+\clearpage
+
+\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\lipsum[1-3] % Dummy text
+
+\makeletterclosing % Print letter signature
+
+
+\fi
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
