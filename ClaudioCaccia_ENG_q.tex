@@ -26,7 +26,7 @@
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
@@ -51,7 +51,7 @@
 %\homepage{ccaccia73.github.io/}{ccaccia73.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196/03}
 %\photo[60pt][0.2pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"All models are wrong, but some are useful" George E.P. Box}
+\quote{"All models are wrong, but some are useful"\\ George E.P. Box}
 
 %----------------------------------------------------------------------------------------
 
@@ -68,14 +68,13 @@
 
 \subsection{Vocational}
 
-\cventry{2012--Present}{R\&D Engineer}{Atos S.p.A.}{Sesto Calende}{employee}{Design, dimensioning and verification of hydraulic valves, performances optimization by means of \emph{Virtual Prototyping} tools.\newline{}
+\cventry{2014--Present}{R\&D Engineer}{Atos S.p.A.}{Sesto Calende}{employee}{Design, dimensioning and verification of hydraulic valves, performances optimization by means of \emph{Virtual Prototyping} tools.\newline{}
 	\begin{itemize}
 		\item Analysis of hydraulic components and systems to define performances and fulfill customer needs
 		\item Use of Computational Fluid Dynamics (\emph{CFD}) tools with the purpose of:
 		\begin{itemize}
 			\item estimate \emph{performances} of new components
-			\item optimize flow rate of existing products
-			\item compute forces on moving elements
+			\item compute forces on moving elements and estimate dynamic behavior
 		\end{itemize}
 		\item Use of Structural analysis (\emph{FEM}) with the purpose of:
 		\begin{itemize}
@@ -83,12 +82,16 @@
 			\item determine and optimize critical sections and geometries
 			\item analyze dynamic behavior (frequency response and modal analysis)
 		\end{itemize}
-		\item Test-bench experiments (supervision and execution) to cross-validate simulation data 
-		\item Use of \emph{DoE} methods to search optimal working conditions minimizing the number of required tests or simulations
+		\item Test-bench experiments (supervision and execution) to cross-validate simulation data
+		\begin{itemize}
+			\item measure dynamic response of components
+			\item vibration analysis
+		\end{itemize}
+		\item 
 	\end{itemize}
 }
 
-\cventry{2008--2012}{Firmware Engineer}{Atos S.p.A.}{Sesto Calende}{employee}{Firmware Development of hydraulic actuators designed to control flow, pressure, force  and position.
+\cventry{2008--2015}{Firmware Engineer}{Atos S.p.A.}{Sesto Calende}{employee}{Firmware Development of hydraulic actuators designed to control flow, pressure, force  and position.
 In detail:
 \begin{itemize}
 	\item Implementation of control algorithms applied to hydraulic axes defining:
@@ -114,7 +117,7 @@ In detail:
 		\item sensorization
 		\item execution of acquisitions campaigns
 	\end{itemize}
-	\item Robots development for the project \emph{Robocup} (\url{www.robocup.org}): design of components and platforms
+	\item Robots development for the project \emph{Robocup} (\url{www.robocup.org}): design and control
 \end{itemize} }
 
 
@@ -146,7 +149,7 @@ Analysis of production and assembly processes, monitoring of defectiveness of ou
 	}
 \cventry{2003}{Freelancer}{Microsystems srl.}{Milan}{}{
 \begin{itemize}
-	\item design and deployment of a custom machine for artistic wax products
+	\item design and control of a custom machine for artistic wax products
 	\item design of a robotic platform for surveillance and tele-medicine
 \end{itemize}}
 \cventry{2003}{Freelancer}{Raff Progetti srl.}{Galliate (NO)}{}{
